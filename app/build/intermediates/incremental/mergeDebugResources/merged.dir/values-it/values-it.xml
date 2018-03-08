@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="app_name">QI Test</string>
+    <string name="begin">Inizia</string>
+    <string name="btn_back_to_welcome">Vai alla pagina iniziale</string>
+    <string name="content">Questo è un test per misurare il quoziente intellettivo. Contiene alcune domande per verificare le tue abilità matematiche, logiche, grafiche. Le domande sono state scelte tra quelle contenute nel vero test del QI del MENSA, High IQ Society, versione italiana.</string>
+    <string name="hint_2">Inserisci qui la tua risposta...</string>
+    <string name="hint_enter_your_answer">Inserisci qui la tua risposta...</string>
+    <string name="mensa_description">" Visualizzazione delle traduzioni per Whatever your score is, you can better test your skills on the Norwegian page of MENSA. Here is the link: Traduci invece Whatever your score is, you can better test your skills on the Norvegian page of MENSA. Here is the link: Qualunque sia il tuo punteggio, puoi testare meglio le tue abilità sulla pagina norvegese del MENSA. Ecco il link:"</string>
+    <string name="question1">Domanda n. 1</string>
+    <string name="question10">Domanda n. 10</string>
+    <string name="question10_description">Indicare quale simbolo deve essere inserito nello spazio vuoto dell\'immagine seguente.</string>
+    <string name="question1_description">Inserisci il numero corretto per completare la sequenza. Una volta inserita la risposta, clicca sul pulsante Invia</string>
+    <string name="question2">Domanda n. 2</string>
+    <string name="question2_description">Inserisci la lettera corretta per completare la sequenza. Una volta inserita la risposta, clicca sul pulsante Invia</string>
+    <string name="question3">Domanda n. 3</string>
+    <string name="question3_description">Clicca sul simbolo corretto per completare la seuqenza.</string>
+    <string name="question4">Domanda n. 4</string>
+    <string name="question4_description">Clicca sul simbolo corretto per completare la seuqenza.</string>
+    <string name="question5">Domanda n. 5</string>
+    <string name="question5_description">Clicca sul simbolo corretto per completare la seuqenza.</string>
+    <string name="question6">Domanda n. 6</string>
+    <string name="question6_description">Clicca sul simbolo corretto per completare la seuqenza.</string>
+    <string name="question7">Domanda n. 7</string>
+    <string name="question7_description">Clicca sul simbolo corretto per completare la seuqenza.</string>
+    <string name="question8">Domanda n. 8</string>
+    <string name="question8_description">" In ogni analogia, mancano 2 dei 4 elementi. Indicare 2 dei 5 simboli che hanno la stessa ratio dei 2 simboli mostrati nell'immagine seguente."</string>
+    <string name="question9">Domanda n. 9</string>
+    <string name="question9_description">" In ogni analogia, mancano 2 dei 4 elementi. Indicare 2 dei 5 simboli che hanno la stessa ratio dei 2 simboli mostrati nell'immagine seguente."</string>
+    <string name="question_null">Per piacere, inserisci una risposta</string>
+    <string name="result_hint">Se il tuo risultato è inferiore o uguale a 30, hai una bassa abilità logica. Puoi migliorare, ma devi esercitare maggiormente il tuo cervello su questo tipo di test. Se hai raggiunto un punteggio tra 40 e 60, hai capacità logiche medie; forse puoi fare meglio, se presti maggiore attenzione e ti prendi il giusto tempo per dare una risposta. Se hai raggiunto un punteggio tra 70 e 90, hai elevate capacità logiche e puoi permetterti il ​​vero test del MENSA. Se hai raggiunto un punteggio tra 95 e 100, probabilmente puoi superare con successo il vero test del MENSA.</string>
+    <string name="results">Risultati del Test</string>
+    <string name="results_description">Questi sono i tuoi risultati:</string>
+    <string name="rules">Istruzioni</string>
+    <string name="rules_content">Per ogni domanda, devi inserire la risposta, seguendo le istruzioni. Dopo aver risposto a una domanda, l\'app aprirà la pagina della domanda successiva. Pensa bene prima di cliccare su una risposta, perché una volta cliccato non puoi tornare indietro e modificare la tua risposta. Una volta che hai risposto all\'ultima domanda, apparirà la pagina dei Risultati, per darti il tuo responso.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="send">Invia</string>
+    <string name="send2">Invia</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submit">Vedi risultati</string>
+    <string name="welcome">Benvenuto!</string>
+    <string name="your_answer">La tua risposta</string>
+    <string name="your_result">Il tuo risultato</string>
+</resources>

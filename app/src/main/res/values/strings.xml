@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">IQ Test</string>
+    <string name="pic" translatable="false">Background image</string>
+    <string name="welcome">Welcome!</string>
+    <string name="content">This is an IQ Test. It contains some questions to check your math, logic, graphic skills. The questions have been chosen among the ones contained in the real IQ test by MENSA, the High IQ Society, italian version.</string>
+    <string name="rules">Rules</string>
+    <string name="rules_content">For each question, you have to enter the answer, following the instructions. After you answered a question, the app will open next question page. Think well before clicking on an answer, because once clicked you cannot go back and modify your answer. Once you have answered the last question, the Results page will appear, to give you your response.</string>
+    <string name="begin">Begin</string>
+    <string name="hint_enter_your_answer">Enter your answer</string>
+    <string name="your_answer">Your answer</string>
+    <string name="question1">Question #1</string>
+    <string name="question1_description">Enter the right number to complete the sequence. Once you entered the answer, click on \"Send\" button</string>
+    <string name="sequence1" translatable="false">1, 3, 6, 10, &#8230;</string>
+    <string name="send">Send</string>
+    <string name="question_null">Please, enter an answer</string>
+    <string name="question2">Question #2</string>
+    <string name="question2_description">Enter the right letter to complete the sequence. Once you entered the answer, click on \"Send\" button</string>
+    <string name="sequence2" translatable="false">a, d, g, j, &#8230;</string>
+    <string name="hint_2">Enter your answer</string>
+    <string name="send2">Send</string>
+    <string name="question3">Question #3</string>
+    <string name="sequence3" translatable="false">Quiz 3 image</string>
+    <string name="answ3" translatable="false">Answer 3 image</string>
+    <string name="question3_description">Click on the right symbol to complete the sequence</string>
+    <string name="question4">Question #4</string>
+    <string name="sequence4" translatable="false">Quiz 4 image</string>
+    <string name="answ4" translatable="false">Answer 4 image</string>
+    <string name="question4_description">Click on the right symbol to complete the sequence</string>
+    <string name="question5">Question #5</string>
+    <string name="sequence5" translatable="false">Quiz 5 image</string>
+    <string name="answ5" translatable="false">Answer 5 image</string>
+    <string name="question5_description">Click on the right symbol to complete the sequence</string>
+    <string name="question6">Question #6</string>
+    <string name="sequence6" translatable="false">Quiz 6 image</string>
+    <string name="answ6" translatable="false">Answer 6 image</string>
+    <string name="question6_description">Click on the right symbol to complete the sequence</string>
+    <string name="question7">Question #7</string>
+    <string name="sequence7" translatable="false">Quiz 7 image</string>
+    <string name="answ7" translatable="false">Answer 7 image</string>
+    <string name="question7_description">Click on the right symbol to complete the sequence</string>
+    <string name="question8">Question #8</string>
+    <string name="sequence8" translatable="false">Quiz 8 image</string>
+    <string name="answ8" translatable="false">Answer 8 image</string>
+    <string name="question8_description">In every analogy, 2 of the 4 elements are missing. Indicate 2 of the 5 symbols that have the same ratio as the 2 symbols shown in the following image</string>
+    <string name="question9">Question #9</string>
+    <string name="sequence9" translatable="false">Quiz 9 image</string>
+    <string name="answ9" translatable="false">Answer 9 image</string>
+    <string name="question9_description">In every analogy, 2 of the 4 elements are missing. Indicate 2 of the 5 symbols that have the same ratio as the 2 symbols shown in the following image</string>
+    <string name="question10">Question #10</string>
+    <string name="sequence10" translatable="false">Quiz 10 image</string>
+    <string name="answ10" translatable="false">Answer 10 image</string>
+    <string name="question10_description">Indicate between the symbols the one to be inserted in the empty space of the following series</string>
+    <string name="submit">Submit</string>
+    <string name="results">Test Results</string>
+    <string name="results_description">Here are your results: </string>
+    <string name="btn_back_to_welcome">Go to welcome page</string>
+    <string name="your_result">Your result</string>
+    <string name="result_hint">If your result is less or equal than 30, you have little logic skills. You can improve, but you have to exercise your brain more on this kind of tests. If you have reached a score between 40 and 60, you have medium logic skills; maybe you can do better, if you pay more attention and take your time to give an answer. If you have reached a score between 70 and 90, you have high logic skills and you can afford the real MENSA test. If you have reached a score between 95 and 100, probably you can successfully afford the real MENSA test.</string>
+    <string name="mensa_description">Whatever your score is, you can better test your skills on the Norvegian page of MENSA. Here is the link:</string>
+    <string name="mensa_link" translatable="false">http://test.mensa.no/</string>
+</resources>

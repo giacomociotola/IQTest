@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/question6"
+                android:textAppearance="@style/QuestionTitle" />
+
+            <TextView
+                android:id="@+id/instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="@dimen/margin_top_small"
+                android:text="@string/question6_description"
+                android:textAppearance="@style/NormalText" />
+
+            <ImageView
+                android:id="@+id/definition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/instructions"
+                android:layout_marginTop="@dimen/margin_top_small"
+                android:contentDescription="@string/sequence6"
+                android:gravity="center"
+                android:src="@drawable/q6img" />
+
+            <TextView
+                android:id="@+id/your_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/definition"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/your_answer"
+                android:textAppearance="@style/Title" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/group6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_radiobutton_image"
+                android:drawableLeft="@drawable/a61"
+                android:drawableStart="@drawable/a61" />
+
+            <RadioButton
+                android:id="@+id/a62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_radiobutton_image"
+                android:drawableLeft="@drawable/a62"
+                android:drawableStart="@drawable/a62" />
+
+            <RadioButton
+                android:id="@+id/a63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_radiobutton_image"
+                android:drawableLeft="@drawable/a63"
+                android:drawableStart="@drawable/a63" />
+
+            <RadioButton
+                android:id="@+id/a64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_radiobutton_image"
+                android:drawableLeft="@drawable/a64"
+                android:drawableStart="@drawable/a64" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</ScrollView>

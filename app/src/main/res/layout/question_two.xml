@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/question2"
+        android:textAppearance="@style/QuestionTitle" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="@dimen/margin_top_small"
+        android:text="@string/question2_description"
+        android:textAppearance="@style/NormalText" />
+
+    <TextView
+        android:id="@+id/definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instructions"
+        android:layout_marginTop="@dimen/margin_top_big"
+        android:gravity="center"
+        android:text="@string/sequence2"
+        android:textAppearance="@style/QuestionText" />
+
+    <TextView
+        android:id="@+id/your_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/definition"
+        android:layout_marginTop="@dimen/margin_top_big"
+        android:text="@string/your_answer"
+        android:textAppearance="@style/Title" />
+
+    <LinearLayout
+        android:id="@+id/enterAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/your_answer">
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_big"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="@string/hint_enter_your_answer"
+            android:inputType="text"
+            android:textAppearance="@style/QuestionText" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin_top_big"
+            android:layout_weight="1"
+            android:text="@string/send" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/question10"
+                android:textAppearance="@style/QuestionTitle" />
+
+            <TextView
+                android:id="@+id/instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="@dimen/margin_top_small"
+                android:text="@string/question10_description"
+                android:textAppearance="@style/NormalText" />
+
+            <ImageView
+                android:id="@+id/definition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/instructions"
+                android:layout_marginTop="@dimen/margin_top_small"
+                android:contentDescription="@string/sequence10"
+                android:gravity="center"
+                android:src="@drawable/q10img" />
+
+            <TextView
+                android:id="@+id/your_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/definition"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/your_answer"
+                android:textAppearance="@style/Title" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/group10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/a101"
+                android:drawableStart="@drawable/a101" />
+
+            <RadioButton
+                android:id="@+id/a102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/a102"
+                android:drawableStart="@drawable/a102" />
+
+            <RadioButton
+                android:id="@+id/a103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/a103"
+                android:drawableStart="@drawable/a103" />
+
+            <RadioButton
+                android:id="@+id/a104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/a104"
+                android:drawableStart="@drawable/a104" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/submit"/>
+
+    </LinearLayout>
+
+</ScrollView>
